@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+	<meta charset=utf-8>
+	<title>HTML5 Audio Gamee</title>
+	<link rel="stylesheet" href="./css/audio01.css" />
+</head>
+<body>
+	<header>
+	</header>
+	<div id="game">
+		
+		<section id="menu-scene" class="scene">
+			<a href="#game" ></a>
+		</section>
+		<section id="chage-scene" class="scene">
+			<a id="album1" class="class1"></a>
+			<a id="album2" class="class2"></a>
+			<a id="album3" class="class3"></a>
+			<a href="#right" class="rfshow"></a>
+			<a href="#left"  class="rfshow"></a>
+			<a href="#start"></a>
+		</section>
+		<section id="game-scene" class="scene">
+			<canvas id="game-canvas"  width="1080"  height="720">
+				sorry,your web brpwser does not support canvas content.	
+			</canvas>
+			<canvas id="game-background-canvas" width="1080" height="720">
+				sorry,your web browser does not support  canvas content.
+			</canvas>
+            
+            <div id="hit-line-1" class="hit-line hide"></div>
+			<div id="hit-line-2" class="hit-line hide"></div>
+            <div id="hit-line-3" class="hit-line hide"></div>
+			<div id="hit-line-4" class="hit-line hide"></div>
+            <div id="hit-line-5" class="hit-line hide"></div>
+			<div id="hit-line-6" class="hit-line hide"></div>
+			<div id="sign" class=""></div>
+		</section>
+		<section id="final-scene" class="scene">
+			<div id="great1" class=" "></div>
+			<div id="great2" class=" "></div>
+			<div id="great3" class=" "></div>
+			<div id="perfect1" class=" "></div>
+			<div id="perfect2" class=" "></div>
+			<div id="perfect3" class=" "></div>
+			<div id="miss1" class=" "></div>
+			<div id="miss2" class=" "></div>
+			<div id="miss3" class=" "></div>
+			<div id="score1" class=" "></div>
+			<div id="score2" class=" "></div>
+			<div id="score3" class=" "></div>
+			<div id="score4" class=" "></div>
+			<div id="score5" class=" "></div>
+			<div id="score6" class=" "></div>
+		</section>
+	</div>
+	<audio id="btn_over"> <!--muusic-->
+		<source src="media/btn_over.wav"  />
+		<source src="media/btn_over.ogg" />
+	</audio>
+	<audio id="melody">
+		<source src="media/minuet_in_g_melody.mp3" />
+		<source src="media/minuet_in_g_melody.ogg" />
+	</audio>
+	<audio id="base">
+		<source src="media/minuet_in_g.mp3" />
+		<source src="media/minuet_in_g.ogg" />
+	</audio>
+	<audio id="btn_active"  >
+		<source src="media/btn_active.mp3" />
+		<source src="media/btn_active.ogg" />
+	</audio>
+	<audio id="btn_right"  >
+		<source src="media/btn_right.mp3" />
+		<source src="media/btn_right.ogg" />
+	</audio>
+	<audio id="jerryclittle">
+		<source src="media/jerryc-little.mp3" />
+	</audio>
+		<audio id="ffltlittle">
+		<source src="media/fflt-little.mp3" />
+	</audio>
+		<audio id="keshalittle">
+		<source src="media/kesha-little.mp3" />
+	</audio>
+	
+	<audio id="jerryc">
+		<source src="media/jerryc.mp3" />
+	</audio>
+		<audio id="fflt">
+		<source src="media/Fight for Love Tonight.mp3" />
+	</audio>
+		<audio id="kesha">
+		<source src="media/kesha.mp3" />
+	</audio>
+	<footer>
+		<div id="output"> </div>
+		<div id="output1"> </div>
+		<div id="output2"> </div>
+		<div id="output3"> </div>
+		<div id="output4"> </div>
+		<div id="output5"> </div>
+		<div id="output6"> </div>
+	</footer>
+<script src="./js/jquery-1.8.2.min.js"></script>
+<script src="./js/audio01.js"></script>
+</body>
+</html>
